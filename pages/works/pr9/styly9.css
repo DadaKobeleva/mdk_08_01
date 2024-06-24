@@ -1,0 +1,125 @@
+.line li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: rgb(176, 145, 188);
+    text-align: center;
+    margin: 10px;
+}
+.links a{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(69, 3, 149);
+    color: aliceblue;
+    list-style-type:none;
+    text-decoration: none;
+}
+.blocks div{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(176, 145, 188);
+    text-align: center;
+}
+.blocks{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.blocks .non{
+    display: none;
+}
+.links-markers a{
+    display: list-item;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    width: 200px;
+}
+.links-markers{
+    margin: 20px 10px ;
+}
+
+.post1 .image{
+    background: url("img/weather-sun.jpg");
+    width: 100px;
+    height: 100px;
+    border: 3px dashed red;
+    float: left;
+    margin: 20px;
+}
+.post1{
+    background-color: #930303;
+    height: 200px;
+}
+.post2 .image{
+    background: url("img/weather-sun.jpg");
+    width: 100px;
+    height: 100px;
+    border: 3px dashed red;
+    float: right;
+    margin:  20px;
+}
+.post2{
+    background-color: #930303;
+    height: 200px;
+}
+.zadanie7 div{
+    display: inline-block;
+    margin: 10px;
+    background-color: aqua;
+}
+.zadanie7 .pogoda1{
+    background: url("img/weather-sun.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.zadanie7 .pogoda2{
+    background: url("img/weather-snow.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.zadanie7 .pogoda3{
+    background: url("img/weather-blizzard.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.zadanie7 .pogoda1 h3{
+    background-color: rgb(2, 98, 119);
+    color: aliceblue;
+    text-align: center;
+    margin-block: initial;
+}
+.zadanie7 .pogoda2 h3{
+    background-color: rgb(2, 98, 119);
+    color: aliceblue;
+    text-align: center;
+    margin-block: initial;
+}
+.zadanie7 .pogoda3 h3{
+background-color: rgb(2, 98, 119);
+color: aliceblue;
+text-align: center;
+margin-block: initial;
+}
+.zadanie7 .pogoda1 p{
+margin:50px 0px;
+font-size: 24px;
+text-align: center;
+}
+.zadanie7 .pogoda2 p{
+    margin:50px 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.zadanie7 .pogoda3 p{
+margin:50px 0px;
+font-size: 24px;
+text-align: center;
+}

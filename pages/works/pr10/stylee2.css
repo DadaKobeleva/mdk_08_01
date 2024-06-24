@@ -1,0 +1,51 @@
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 240px;
+}
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 100px;
+}
+.content1 p{
+    width: 500px;
+    text-align: justify;
+}
+.content2 p{
+    width: 500px;
+    text-align: justify;
+}
+.content1 h2{
+    width: 50px;
+}
+.content1 img{
+    margin-left: -120px;
+ }
+.content2 img{
+   margin-left: 20px;
+}
+footer{
+    background:linear-gradient(75.91deg, 
+    rgba(34, 34, 35, 0.8) 15.12%, rgba(26, 26, 27, 0) 95.53%), url("../../../img/город\ фон.png");
+    background-size: cover;;
+    height: 300px;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    gap: 250px;
+}
+.info p{
+    width: 150px;
+}
+
+
+

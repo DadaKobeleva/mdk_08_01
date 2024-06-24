@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+    font-size: 44px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 700px;
+    
+}
+.nomer1{
+    grid-row: span 3;
+    background: url(img/image\ 1.png);
+    width: 490px;
+    height: 630px;
+}
+.nomer4{
+    grid-column: span 2;
+}
+.nomer2{
+    background: url(img/image\ 2.png);
+    width: 375px;
+    height: 255px;
+}
+.nomer3{
+    background: url(img/image\ 3.png);
+    width: 380px;
+    height: 255px;
+}
+.nomer5{
+    background: url(img/image\ 4.png);
+    width: 375px;
+    height: 240px;
+}
+.nomer6{
+    background: url(img/image\ 5.png);
+    width: 390px;
+    height: 240px;
+}
+
+
