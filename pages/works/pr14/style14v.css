@@ -1,0 +1,25 @@
+body {
+    color: #4f4f4f;
+    font: 600 24px;
+}
+.box{ 
+    background: #2db34a;
+    border-radius: 6px;
+    height: 95px;
+    line-height: 95px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}

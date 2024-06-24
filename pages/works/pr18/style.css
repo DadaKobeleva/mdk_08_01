@@ -1,0 +1,25 @@
+.content{
+   width: 800px;
+   display: flex; 
+   flex-wrap: wrap;
+}
+.content1{
+   background: rgb(170, 43, 43);
+   border: 1px solid rgb(156, 156, 156);
+}
+.content2{
+   border: 1px solid rgb(156, 156, 156);
+}
+.content3{
+   border: 1px solid rgb(156, 156, 156);
+}
+.content4{
+   border: 1px solid rgb(156, 156, 156);
+}
+img{
+   float: left;
+   margin: 10px;
+}
+p{
+   color: rgb(138, 138, 138);
+}
